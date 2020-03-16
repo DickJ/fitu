@@ -313,7 +313,7 @@ def run_online_schedule():
                   'msg': "Starting run_online_schedule()"})
     # Define Vars
     conn, cur = u_db.get_db_conn_and_cursor()
-    url = 'https://www.cnatra.navy.mil/scheds/schedule_data.aspx?sq=vt-3'
+    url = 'https://www.cnatra.navy.mil/scheds/schedule_data.aspx?sq=tw-5+fitu'
     tomorrow = datetime.now() - timedelta(hours=5) + timedelta(
         days=1)  # adjust timezone
 

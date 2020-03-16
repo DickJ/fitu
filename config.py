@@ -1,7 +1,7 @@
 import os
 import urllib.parse
 
-BASE_URL = 'https://vt3.herokuapp.com'
+BASE_URL = 'https://fitu.herokuapp.com'
 BUG_REPORTING_EMAIL = os.environ['BUG_REPORTING_EMAIL']
 DEBUG = False
 urllib.parse.uses_netloc.append("postgres")
